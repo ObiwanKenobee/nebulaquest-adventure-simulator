@@ -3,6 +3,7 @@ import StarField from '../components/StarField';
 import GalaxyMap from '../components/GalaxyMap';
 import Spaceship from '../components/Spaceship';
 import GameHUD from '../components/GameHUD';
+import QuestLog from '../components/QuestLog';
 import { motion } from 'framer-motion';
 
 const Index = () => {
@@ -27,6 +28,7 @@ const Index = () => {
       </motion.div>
       
       <GameHUD />
+      <QuestLog />
     </div>
   );
 };
