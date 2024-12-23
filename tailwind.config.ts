@@ -60,6 +60,9 @@ export default {
           foreground: "hsl(var(--card-foreground))",
         },
       },
+      boxShadow: {
+        'glow-purple': '0 0 15px rgba(189, 52, 254, 0.5)',
+      },
       keyframes: {
         "star-twinkle": {
           "0%, 100%": { opacity: "1" },
